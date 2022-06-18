@@ -21,6 +21,12 @@ git clone git@github.com:brillout/graphql-apollo_vite-3_bug-2 && cd graphql-apol
 Observe the error:
 
 ```
+'default' is not exported by .../@apollo_client.js
+```
+
+More context:
+
+```
 vite v3.0.0-alpha.12 building for production...
 transforming (110) node_modules/.vite/deps_build-69a4c753/cross-fetch.jsError when using sourcemap for reporting an error: Can't resolve original location of error.
 ✓ 114 modules transformed.
