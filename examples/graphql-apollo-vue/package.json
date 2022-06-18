@@ -7,9 +7,9 @@
     "server:prod": "cross-env NODE_ENV=production node ./server"
   },
   "dependencies": {
-    "@apollo/client": "^3.5.8",
+    "@apollo/client": "^3.6.8",
     "@vitejs/plugin-vue": "^2.0.1",
-    "@vue/apollo-composable": "^4.0.0-alpha.16",
+    "@vue/apollo-composable": "^4.0.0-alpha.17",
     "@vue/compiler-sfc": "^3.2.26",
     "@vue/server-renderer": "^3.2.26",
     "compression": "^1.7.4",
