@@ -1,18 +1,24 @@
-*Like Next.js / Nuxt but as do-one-thing-do-it-well Vite plugin.*
+Bug reproduction.
 
-Intro & docs: [vite-plugin-ssr.com](https://vite-plugin-ssr.com)
-<br/>
-Examples (official): [examples/](https://github.com/brillout/vite-plugin-ssr/tree/master/examples)
-<br/>
-Examples (community): [examples/README.md](https://github.com/brillout/vite-plugin-ssr/tree/master/examples#community-examples)
+To run it:
 
-Version history & breaking changes: [CHANGELOG.md](/CHANGELOG.md)
+```bash
+git clone git@github.com:brillout/graphql-apollo_vite-3_bug-2
+cd graphql-apollo_vite-3_bug-2/
+pnpm run setup
+pnpm install
+pnpm run build
+cd examples/graphql-apollo-vue/
+pnpm run prod
+```
 
-Follow: [Twitter > @brillout](https://twitter.com/brillout)
-<br/>
-Chat: <a href="https://discord.com/invite/dSDMGGJZQy">Discord > Cubes<img src="/docs/icons/hash.svg" height="17" width="23" valign="text-bottom" alt="hash"/>vite-plugin-ssr</a>
+Same as single line (copy paste me):
 
+```bash
+git clone git@github.com:brillout/graphql-apollo_vite-3_bug-2 && cd graphql-apollo_vite-3_bug-2/ && pnpm run setup && pnpm install && pnpm run build && cd examples/graphql-apollo-vue/ && pnpm run prod
+```
 
-Have a question? Want a feature? A tool integration is not working?
-<a href="https://discord.com/invite/dSDMGGJZQy">Join our Discord</a> or
-<a href="https://github.com/brillout/vite-plugin-ssr/issues/new">open a GitHub ticket</a>.
+Observe the error:
+
+```
+```
